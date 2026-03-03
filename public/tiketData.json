@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User unable to login with correct credentials.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01T09:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment Gateway Error",
+    "description": "Transaction failed during checkout process.",
+    "customer": "Karim Hasan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-01T11:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Password Reset Not Working",
+    "description": "Reset password link expired immediately after request.",
+    "customer": "Nusrat Jahan",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02T08:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Profile Update Failed",
+    "description": "User cannot update profile information.",
+    "customer": "Sabbir Ahmed",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-02T10:20:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Dashboard Loading Slow",
+    "description": "Dashboard takes too long to load after login.",
+    "customer": "Fatema Akter",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T13:05:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Email Notification Missing",
+    "description": "Customer not receiving ticket confirmation emails.",
+    "customer": "Imran Hossain",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-02T15:40:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Attachment Upload Error",
+    "description": "File upload fails when attaching screenshots.",
+    "customer": "Tania Rahman",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T17:10:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Search Function Not Working",
+    "description": "Search results not displaying correct data.",
+    "customer": "Arif Chowdhury",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03T09:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Account Suspension Error",
+    "description": "Active account showing as suspended.",
+    "customer": "Mitu Sultana",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03T10:25:00Z"
+  },
+  {
+    "id": 10,
+    "title": "UI Alignment Issue",
+    "description": "Buttons misaligned on mobile view.",
+    "customer": "Rasel Khan",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-03T11:50:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Report Export Failed",
+    "description": "Unable to export reports in PDF format.",
+    "customer": "Shila Akter",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-03T13:15:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Two-Factor Authentication Issue",
+    "description": "OTP not received during login verification.",
+    "customer": "Mahmudul Islam",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03T14:30:00Z"
+  }
+]

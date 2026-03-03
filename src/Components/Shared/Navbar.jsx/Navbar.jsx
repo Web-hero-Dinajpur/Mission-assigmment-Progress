@@ -2,7 +2,7 @@ import React from 'react';
 import { IoMdAdd } from "react-icons/io";
 const Navbar = () => {
     return (
-        <div className="navbar bg-[#FFFFFF] justify-between font-semibold">
+        <div className="navbar bg-[#FFFFFF] justify-between font-semibold w-[1280px] mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <li><a>Download</a></li>
                     <li><a>Contact</a></li>
                 </ul>
-                <div className="bg-gradient-to-r from-[#4F46E5] to-[#7C3AED]
+                <div className="bg-gradient-to-r from-[#2F46E5] to-[#9C3AED]
                 hover:from-[#4338CA] hover:to-[#6D28D9]
                 text-white px-4 py-2 rounded-md 
                 flex items-center gap-2">
