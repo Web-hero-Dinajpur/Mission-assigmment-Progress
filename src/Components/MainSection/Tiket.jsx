@@ -3,7 +3,7 @@ import React from 'react';
 const Tiket = ({ tiket }) => {
     const { title, description, customer, priority, status, createdAt } = tiket;
     return (
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card text-black w-96 shadow-sm">
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
                 <p>{description}</p>

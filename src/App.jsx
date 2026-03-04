@@ -13,8 +13,9 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+     
       <div className='bg-[#F5F5F5]'>
+         <Navbar></Navbar>
         <TopBannar></TopBannar>
         <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
           <MainSection tiketAllData={tiketAllData}></MainSection>
