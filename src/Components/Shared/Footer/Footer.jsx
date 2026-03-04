@@ -6,7 +6,7 @@ import { RiXboxLine } from 'react-icons/ri';
 const Footer = () => {
     return (
         <>
-            <footer className="footer sm:footer-horizontal bg-black text-white p-10 grid grid-cols-4">
+            <footer className="footer  bg-black text-white p-10 md:grid md:grid-cols-4">
                 <aside>
                     <a className="btn-ghost text-2xl font-bold">CS — Ticket System</a>
                     <p className='md:w-[250px] text-justify'>

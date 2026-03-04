@@ -1,10 +1,5 @@
 .bannar {
-   background-image: url(../../../assets/vector1.png), url(../../../assets/Group\ 1.png)!important;
+   background-image: linear-gradient(to right, rgb(110, 56,5, 0), rgb(71, 83, 72)), url(../../../assets/Group\ 1.png), url(../../../assets/vector1.png);
    background-repeat: no-repeat, no-repeat;
    background-position: left top, right top;
-   z-index: 2;
-}
-.bannar-color{
-       background-image: linear-gradient(to right, rgba(108,54,229), rgba(159,98,242));
-       z-index:1
 }
