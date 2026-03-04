@@ -23,7 +23,9 @@ const Tiket = ({ tiket }) => {
                 </div>
                 </a>
             </div>
+            
         </>
+        
 
     );
 };
