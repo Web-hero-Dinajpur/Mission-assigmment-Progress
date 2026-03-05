@@ -4,6 +4,7 @@ import Footer from './Components/Shared/Footer/Footer'
 import Navbar from './Components/Shared/Navbar.jsx/Navbar'
 import TopBannar from './Components/Pages/TopBannar/TopBannar'
 import MainSection from './Components/MainSection/MainSection'
+import { ToastContainer } from 'react-toastify'
 
 const tiketAllData = fetch('./tiketData.json')
   .then(res => res.json())
@@ -24,6 +25,7 @@ function App() {
         </Suspense>
       </div>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </>
   )
 }
