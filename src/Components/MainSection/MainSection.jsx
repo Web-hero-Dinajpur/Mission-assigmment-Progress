@@ -1,10 +1,12 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import Tiket from './Tiket';
 import Task from './Task';
 
 const MainSection = ({ tiketAllData }) => {
     const newTiketData = use(tiketAllData);
-    console.log(newTiketData)
+    
+    const [progress, setProgress]= useState([]);
+    // console.log(progress)
     return (
         <div className='w-[1280px] mx-auto pb-20 md:flex'>
             <div>
@@ -12,11 +14,16 @@ const MainSection = ({ tiketAllData }) => {
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 w-[950px] ml-0'>
                
                 {
-                    newTiketData.map(tiket => <Tiket tiket={tiket}></Tiket>)
+                    newTiketData.map(tiket => <Tiket
+                    key={tiket.id}
+                         tiket={tiket}
+                         progress={progress}
+                         setProgress={setProgress}
+                         ></Tiket>)
                 }
             </div>
             </div>
-            <Task></Task>
+            <Task progress={progress}></Task>
         </div>
     );
 };

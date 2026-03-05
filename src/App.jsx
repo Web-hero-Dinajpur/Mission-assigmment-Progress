@@ -10,10 +10,8 @@ const tiketAllData = fetch('./tiketData.json')
 
 function App() {
 
-
   return (
     <>
-     
       <div className='bg-[#F5F5F5]'>
          <Navbar></Navbar>
         <TopBannar></TopBannar>

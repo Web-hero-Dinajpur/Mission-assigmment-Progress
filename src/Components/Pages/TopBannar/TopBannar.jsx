@@ -13,7 +13,7 @@ const TopBannar = () => {
                 <h2 className="font-bold text-4xl mt-3">0</h2>
             </div>
             <div className="w-full flex-1 text-center bg-[#41Be6c] py-20 text-white rounded-xl bannar">
-                <p className="text-xl">In-Progress</p>
+                <p className="text-xl">Resolve</p>
                 <h2 className="font-bold text-4xl mt-3">0</h2>
             </div>
         </div>
