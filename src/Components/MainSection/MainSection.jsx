@@ -1,11 +1,11 @@
-import React, { use, useState } from 'react';
+import React, { use } from 'react';
 import Tiket from './Tiket';
 import Task from './Task';
 
-const MainSection = ({ tiketAllData }) => {
+const MainSection = ({ tiketAllData, progress, setProgress }) => {
     const newTiketData = use(tiketAllData);
     
-    const [progress, setProgress]= useState([]);
+  
     // console.log(progress)
     return (
         <div className='w-[1280px] mx-auto pb-20 md:flex'>
